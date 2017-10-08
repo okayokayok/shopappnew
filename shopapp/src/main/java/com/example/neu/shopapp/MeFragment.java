@@ -122,6 +122,7 @@ public class MeFragment extends Fragment implements Response.Listener<JSONObject
                 }else{
                     Toast.makeText(MeFragment.this.getActivity(),"抱歉，您还没有任何订单！",Toast.LENGTH_LONG).show();
                 //commit pull push
+                //fetch merge
 
                 }
             }
