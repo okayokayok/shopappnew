@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.neu.shopapp.GoodsDetailActivity"
+    android:orientation="vertical"
+    >
+    <com.example.neu.util.imagecycleview.ImageCycleView
+
+        android:id="@+id/imageCycleViewDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp">
+
+    </com.example.neu.util.imagecycleview.ImageCycleView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/button_stroke" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/textname"
+        android:text="textname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/button_stroke" />
+    <TextView
+        android:id="@+id/textmaterial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textmaterial"
+        android:textColor="@color/red"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/button_stroke" />
+    <TextView
+        android:id="@+id/textprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textprice"
+        android:textColor="@color/red"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/button_stroke" />
+
+    <TextView
+        android:id="@+id/textsales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textsales"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/button_stroke" />
+    <TextView
+        android:id="@+id/textpostalfee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textpostalfee"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/button_stroke" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textcolorsizes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="textcolorizes"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" · · · "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/button_stroke" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/textdisc"
+        android:text="textdisc"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/button_stroke" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_weight="1"
+        android:background="@color/button_stroke" />
+
+    <Button
+        android:id="@+id/addcart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="加入购物车" />
+
+</LinearLayout>
